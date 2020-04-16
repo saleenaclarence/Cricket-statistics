@@ -1,0 +1,130 @@
+
+header{
+  background-color: crimson;
+  text-align: center;
+  padding:10px;
+  font-family: 'copperplate gothic', impact,fantasy;
+
+}
+nav{
+  background-color: silver;
+  overflow: hidden;
+}
+nav a{
+  float:left;
+  text-decoration: none;
+  color: black;
+  padding:10px;
+  font-weight: bold;
+}
+nav a.active{
+  background-color: darkred;
+}
+nav a:hover{
+  background-color: gray;
+}
+nav input[type=text] {
+  float: right;
+  padding:10px;
+}
+.mainContent{
+  display: flex;
+}
+.Main-section{
+  flex: 70%;
+  margin: 30px;
+  background-color: lightGray;
+
+}
+.Sidebar{
+  flex:30%;
+  margin:30px;
+  background-color: lightGray;
+  padding-bottom: 20px;
+}
+.Main-section h2{
+  padding-left: 20px;
+}
+.size{
+  width:280px;
+  height:175px;
+}
+.sizes{
+  width:40px;
+  height:20px;
+}
+.sizess{
+  width:45px;
+  height:45px;
+}
+.Main-section a{
+  text-decoration: none;
+  color: black;
+}
+.Main-section li{
+  list-style: none;
+
+}
+.new{
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px black solid;
+  display: flex;
+}
+.new li{
+  display: inline;
+}
+footer h4{
+  text-align: center;
+}
+
+.image{
+  flex:30%;
+}
+.text{
+  padding-left: 10px;
+  flex:70%;
+}
+.Main-section input[type=button]{
+  background-color: crimson;
+  padding: 10px;
+  margin-left:45%;
+  margin-bottom: 12px;
+}
+.Sidebar input[type=button]{
+  background-color: crimson;
+  padding: 10px;
+  margin-left:40%;
+  margin-bottom: 12px;
+}
+.Sidebar h2{
+  padding-left: 20px;
+}
+.Sidebar li{
+  border-bottom: 1px black solid;
+  border-radius:
+  padding-right: 20px;
+}
+.damn li{
+  list-style: none;
+  display: inline;
+  text-align: center;
+}
+.side-table td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main-table {
+  margin: auto;
+  color: dimGray;
+  width: 100%;
+}
+.main-table td {
+  padding: auto;
+  color: dimGray;
+}
+.rep{
+  float: right;
+}
